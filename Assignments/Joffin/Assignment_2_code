@@ -1,0 +1,10 @@
+import random
+while(True):
+    a=random.randint(10,99)
+    b=random.randint(10,99)
+    print("Temperature: ",a)
+    print("Humidity:",b)
+    if(a>35 and b>60):
+        print("high temperature and humitidy \n------ALARM ON---------")
+    else:
+        print("Normal temperature and humidity \n------------ALARM OFF-------")
